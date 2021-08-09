@@ -1,0 +1,56 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.box{
+    border: 2px solid red;
+    width: 90%;
+    background-color: grey;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+   
+}
+h2{
+    text-align: center;
+    font-size: 30px;
+    color: salmon;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+p{
+    color: indigo;
+    font-size: 25px;
+
+}
+
+/********** Large devices only **********/
+@media (min-width: 992px) {
+    .col-lg-4 {
+        float: left;
+      width: 33.33%;
+    }
+  }
+  /********** Medium devices only **********/
+  @media (min-width: 768px) and (max-width: 991px) {
+    .col-md-6,.col-md-12 {
+      float: left;
+    }
+    .col-md-6 {
+      width: 50%;
+    }
+    .col-md-12 {
+      width: 105%;
+    }
+}
+  
+  @media (min-width: 0px) and (max-width: 767px) {
+    .col-sm-12 {
+        float: left;
+      width: 100%;
+    }
+  }
